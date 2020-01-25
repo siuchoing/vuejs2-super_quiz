@@ -52,7 +52,9 @@
             };
         },
         methods: {
+            // passing isCorrect from Question to parent component
             onAnswer(isCorrect) {
+                this.$emit('answered', isCorrect);
             }
         }
     }
