@@ -5,16 +5,28 @@
         </div>
         <div class="panel-body">
             <div class="col-xs-12 col-sm-6 text-center">
-                <button class="btn btn-primary btn-lg" style="margin: 10px">{{ btnData[0].answer }}</button>
+                <button
+                        class="btn btn-primary btn-lg"
+                        style="margin: 10px"
+                >{{ btnData[0].answer }}</button>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
-                <button class="btn btn-primary btn-lg" style="margin: 10px">{{ btnData[1].answer }}</button>
+                <button
+                        class="btn btn-primary btn-lg"
+                        style="margin: 10px"
+                >{{ btnData[1].answer }}</button>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
-                <button class="btn btn-primary btn-lg" style="margin: 10px">{{ btnData[2].answer }}</button>
+                <button
+                        class="btn btn-primary btn-lg"
+                        style="margin: 10px"
+                >{{ btnData[2].answer }}</button>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
-                <button class="btn btn-primary btn-lg" style="margin: 10px">{{ btnData[3].answer }}</button>
+                <button
+                        class="btn btn-primary btn-lg"
+                        style="margin: 10px"
+                >{{ btnData[3].answer }}</button>
             </div>
         </div>
     </div>
