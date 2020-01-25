@@ -8,8 +8,8 @@
         <hr>
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                <!-- passing isCorrect from Question to here as $event -->
-                <component :is="mode" @answered="answered($event)"></component>
+                <!-- Toggle Answer and Question components by @answered and @confirmed -->
+                <component :is="mode" @answered="answered($event)" @confirmed="mode = 'app-question'"></component>
             </div>
         </div>
     </div>
